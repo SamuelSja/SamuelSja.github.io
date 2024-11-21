@@ -1,0 +1,29 @@
+
+#container {
+    background: yellow;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.element {
+    background: purple;
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    border: 5px solid green;
+    border-radius: 5px;
+    color: white;
+}
+
+#e1 {
+
+}
+
+#e2 {
+
+}
+
+#e3 {
+
+}
