@@ -1,0 +1,29 @@
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.sText {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.sBox {
+    display: flexbox;
+    padding: 10px;
+    height: 500px;
+    background-color: red;
+}
+
+.sBoxItem {
+    background-color: blue;
+    margin: 5px;
+}
+
+.sLink {
+    font-size: 20px;
+}
+
