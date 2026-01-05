@@ -10,33 +10,110 @@
     <body>
         <h1>Rust Resources</h1>
 
+
         <div class="sbox">
+
+            <h2>Books</h2>
             <div class="sText" id="Books">
                 <div id="RustLangBook">
-                    <a href="https://doc.rust-lang.org/book/ch00-00-introduction.html">The Rust Lang Book</a>
+                    <a href="https://doc.rust-lang.org/book/ch00-00-introduction.html" target="_blank">The Rust Lang Book</a>
                      - This book covers the basics of Rust. I recommend using it in companion with Bogdons Youtube Channel 
                      (<a href="https://www.youtube.com/watch?v=OX9HJsJUDxA&list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8">Lets Get Rusty)</a>
                 </div>
 
                 <div id="RustExampleBook">
-                    <a href="https://doc.rust-lang.org/stable/rust-by-example/">Rust By Example</a> - This book gives example of Rust code
+                    <a href="https://doc.rust-lang.org/stable/rust-by-example/" target="_blank">Rust By Example</a> - This book gives example of Rust code
                 </div>
 
                 <div id="RustDarkArts">
-                    <a href="https://doc.rust-lang.org/nomicon/">The Rustonomicon</a> - This book covers advanced Rust topics in the context of unsafe Rust
+                    <a href="https://doc.rust-lang.org/nomicon/" target="_blank">The Rustonomicon</a> - This book covers advanced Rust topics in the context of unsafe Rust
                 </div>
 
                 <div id="RustReference">
-                    <a href="https://doc.rust-lang.org/reference/index.html">The Rust Reference</a> - This book is meant to give enough information to be able to write a Rust compiler
+                    <a href="https://doc.rust-lang.org/reference/index.html" target="_blank">The Rust Reference</a> - This book is meant to give enough information to be able to write a Rust compiler
                 </div>
 
                 <div id="RustDevGuide">
-                    <a href="https://rustc-dev-guide.rust-lang.org/getting-started.html">Rust Compiler Development Guide</a> - This book is for those who want to contribute to Rust
+                    <a href="https://rustc-dev-guide.rust-lang.org/getting-started.html" target="_blank">Rust Compiler Development Guide</a> - This book is for those who want to contribute to Rust
+                </div>
+
+                <div id="CargoBook">
+                    <a href="https://doc.rust-lang.org/cargo/" target="_blank">Cargo Book</a>
+                </div>
+
+                <div id="AtomicsAndLocks">
+                    Rust Atomics and Locks: Low-Level Concurrency in Practice; Bos, Mara - This book covers parallel programming in rust
+                </div>
+
+                <div id="RustForRustaceans">
+                    Rust for Rustaceans; Jon Gjengset; No Starch Press - I have not read this book, but It is by Jon Gjengset (Crust of Rust Person), so I suspect it is pretty good.
                 </div>
             </div>
 
+            <h2>Videos</h2>
+            <div class="sText" id="Videos">
+                <div id="LetsGetRusty" target>
+                    <a href="https://www.youtube.com/watch?v=OX9HJsJUDxA&list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8">Lets Get Rusty</a>
+                    - This youtube playlist covers the basics of rust. It goes in parallel with The Rust Lang Book
+                </div>
 
+                <div id="CrustOfRust">
+                    <a href="https://www.youtube.com/playlist?list=PLqbS7AVVErFiWDOAVrPt7aYmnuuOLYvOa" target="_blank">Crust of Rust</a>
+                    - Crust of rust covers intermediate to advanced topics. Jon Gjengset has other videos on his youtube channel that I recommend watching.
+                </div>
 
+                <div id="AtomicsAndLocksVideo">
+                    <a href="https://www.youtube.com/watch?v=99Qzpv325yI" target="_blank">Rust Attomics and Locks Playlist</a>
+                    - This is a youtube playlist that covers Bos' Rust Atomics and Locks book
+                </div>
+            </div>
+
+            <h2>Game Engines/Frameworks</h2>
+            <div class="sText" id="GameEngines">
+                Making games is a fun way to get used to using a programming language. There are a couple game frameworks that I have found useful. They are Tetra and Bevy.
+                <h3>Tetra</h3>
+                <div id="Tetra">
+                    I would recommend using tetra first. It easier to start using, and you can do a lot with it.
+                    <a id="TetraDocs" href="https://docs.rs/tetra/latest/tetra/" target="_blank">Tetra Docs</a>
+                    <a id="TetraCreatingAProject" href="https://github.com/17cupsofcoffee/tetra/blob/main/docs/tutorial/01-creating-a-project.md" target="_blank">Creating a Project</a>
+                    <a id="TetraExamples" href="https://github.com/17cupsofcoffee/tetra/blob/main/docs/examples.md" target="_blank">Examples</a>
+                </div>
+
+                <h3>Bevy</h3>
+                <div id="Bevy">
+                    Bevy is my favorite, but it is a lot more complicated than Tetra, so I would recommend starting with Tetra
+                    <a id="BevyDocs" href="https://docs.rs/bevy/latest/bevy/" target="_blank">Bevy Docs</a>
+                    <a id="BevyCheatBook" href="https://bevy-cheatbook.github.io/" target="_blank">Unofficial Bevy Cheat Book</a>
+                    <a id="JacquesPlaylist" href="https://www.youtube.com/watch?v=TQt-v_bFdao&list=PLVnntJRoP85JHGX7rGDu6LaF3fmDDbqyd" target="_blank">Jacques' Playlist</a> - Note that this is probably way out of date. When I used it there were a few things that were different, and because Bevy is a newer game framework things will change rapidly. If there is something that does not compile, look it up or post a question on discord or stack overflow.
+                    <a id="BevyDiscord" href="https://discord.com/channels/691052431525675048/810632276701347920" target="_blank">Bevy Discord</a> - I doubt this link will work, but you can probably look it up.
+                </div>
+
+                <h3>Fyrox</h3>
+                <div id="Fyrox">
+                    I never really got into Fyrox. This was mainly because it was just so new, and I prefer using game frameworks rather than game engines.
+                    <a id="FyroxBook" href="https://fyrox-book.github.io/introduction.html" target="_blank">Fyrox Book</a>
+                </div>
+
+                <h3>Godot</h3>
+                <div id="Godot">
+                    Godot can be used with Rust through the use of Rust C FFI
+                    <a id="GodotRustBook" href="https://godot-rust.github.io/book/" target="_blank">godot-rust book</a>
+                    <a id="GodotBevyBook" href="https://bytemeadow.github.io/godot-bevy/introduction.html">The godot-bevy Book</a>
+                </div>
+            </div>
+
+            <h2>WASM</h2>
+            <div class="sText" id="Wasm">
+                Web Assembly (WASM) is sort of a halfway between Rust source code and an exe file. It is build to run on the web along with javascript. Many programming languages can be compiled to WASM including Rust. This allows us to run Rust code in place of javascript. I never really figured this out, but good luck!
+                <a id="GetStartedWithWebAssembly" href="https://www.freecodecamp.org/news/get-started-with-webassembly-using-only-14-lines-of-javascript-b37b6aaca1e4/" target="_blank">Get Started with WebAssembly</a>
+                <a id="MDM" href="https://developer.mozilla.org/en-US/docs/WebAssembly/Guides/Concepts" target="_blank">MDM</a>
+            </div>
+
+            <h2>Other</h2>
+            <div class="sText" id="Other">
+                <a id="RustOS" href="https://os.phil-opp.com/" target="_blank">Writing an OS in Rust</a>
+                <a id="DesignPatterns" href="https://refactoring.guru/design-patterns/rust" target="_blank">Design Patterns in Rust</a> - These are common patterns that pop up a lot when making things in Rust.
+            </div>
         </div>
 
 
