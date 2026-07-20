@@ -15,11 +15,11 @@
     display: flexbox;
     padding: 10px;
     height: 500px;
-    background-color: red;
+    background-color: rgb(47, 47, 47);
 }
 
 .sBoxItem {
-    background-color: blue;
+    background-color: rgb(110, 110, 143);
     margin: 5px;
 }
 
